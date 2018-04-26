@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html>
+<style>
+body{
+    width:500px;
+    background-color: blanchedalmond;
+    height:auto;
+    }
+      /*  @keyframes example {
+   /* from {background-color: rgb(206, 84, 84);} */
+   /* to {background-color: rgb(241, 241, 177);} */
+   /* 25%  {background-color:yellow; left:200px; top:0px;}
+} */
+
+/*h1{
+  text-align: center;
+  text-overflow: clip;
+  color:rgb(218, 231, 180);
+  text-decoration-color: blue;
+  font-style: italic;
+  font-family:fantasy;
+  font-size:x-large;
+  text-shadow:3px 2px rgb(83, 75, 75);
+  animation-name:example;
+  animation-duration: 4s;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-direction: reverse;
+  
+} */
+h1{
+    
+	animation:blinkingText 2.0s infinite;
+}
+@keyframes blinkingText{
+	0%{		color: #000;	}
+	49%{	color:chocolate;	}
+	50%{	color:blanchedalmond;	}
+	99%{	color:darkgoldenrod;	}
+	100%{	color: #000;	}
+}
+
+h2{
+  color:  rgb(215, 240, 175);
+  font-style: oblique;
+  font-size: large;
+}
+.w_n_p{
+  color: hsl(246, 91%, 48%);
+  font-size: medium;
+  font-style: italic;
+}
+.news_title124{
+    top:500px;
+}
+.news_para123{
+    background-color: rgb(205, 210, 212);
+    padding: 10px;
+    display: none;
+    width:450px;
+   }  
+   .news_title132:hover + .news_para132{
+       display: block;
+   }
+table{
+    position: relative;
+    border-collapse: collapse;
+    border: 8px solid rgb(55, 55, 59);
+    margin-top: -650px;
+    bottom: 300px;
+    right: -900px;
+    width: 150%;
+    height: auto;
+    } 
+th,td{
+   border:1px solid rgb(121, 121, 63)
+}
+.news_title{
+    color: lightsalmon;
+}
+.news_para{
+    color:darkkhaki;
+}
+</style>
+
+<body background="{{url}}" ></body>
+<h1>Mission to Mars</h1>
+
+<ul>
+    <h2>Mars Weather</h2>
+    <li class="w_n_p">{{my_listings1}}</li>
+</ul>
+
+<div class="news" style="background-color:rgb(53, 54, 54);padding:10px; width:500px;"> 
+        <h3 class="news_title">{{news_title_0}}</h3>
+        <p class="news_para">{{news_para_0}}</p>
+    </div> 
+<div class="news" style="background-color:rgb(54, 58, 58);padding:10px; width:500px;">
+  <h4 class="news_title">{{news_title_1}}</h4>
+  <p class="news_para">{{news_para_1}}</p> 
+</div>
+
+<div class="news" style="background-color:rgb(46, 54, 54);padding:10px; width:500px;">
+        <h4 class="news_title">{{news_title_2}}</h4>
+        <p class="news_para">{{news_para_2}}</p> 
+      </div>
+
+<div class="news" style="background-color:rgb(55, 65, 65);padding:10px; width:500px;">
+        <h4 class="news_title">{{news_title_3}}</h4>
+        <p class="news_para">{{news_para_3}}</p> 
+</div>
+<div class="news" style="background-color:rgb(83, 85, 85);padding:10px; width:500px;">
+        <h4 class="news_title">{{news_title_4}}</h4>
+        <p class="news_para">{{news_para_4}}</p> 
+      </div>
+<div class="news" style="background-color:rgb(96, 99, 99);padding:10px; width:500px;">
+        <h4 class="news_title">{{news_title_5}}</h4>
+        <p class="news_para">{{news_para_5}}</p> 
+</div>
+<div class="news" style="background-color:rgb(85, 92, 92);padding:10px; width:500px;">
+        <h4 class="news_title">{{news_title_6}}</h4>
+        <p class="news_para">{{news_para_6}}</p> 
+      </div>
+
+
+<table style="width:50%">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col" style="color:azure">Units</th>
+            <th scope="col" style="color:azure">Values</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td style="color:rgb(241, 218, 11)">Equatorial Diameter	</td>
+            <td style="color:rgb(241, 218, 11)">6,792 km</td>
+            
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td style="color:rgb(241, 218, 11)">Polar Diameter</td>
+            <td style="color:rgb(241, 218, 11)">6,752 km</td>
+            
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td style="color:rgb(241, 218, 11)">Mass</td>
+            <td style="color:rgb(241, 218, 11)">6.42 x 10^23 kg (10.7% Earth</td>
+           
+          </tr>
+          <tr>
+              <th scope="row">4</th>
+              <td style="color:rgb(241, 218, 11)">Moons</td>
+              <td style="color:rgb(241, 218, 11)">2 (Phobos & Deimos)</td>
+          </tr>
+          
+          <tr>
+                <th scope="row">5</th>
+                <td style="color:rgb(241, 218, 11)">Orbit Distance</td>
+                <td style="color:rgb(241, 218, 11)">227,943,824 km (1.52 AU)</td>
+            </tr>
+
+            <tr>
+                    <th scope="row">6</th>
+                    <td style="color:rgb(241, 218, 11)">Orbit Period</td>
+                    <td style="color:rgb(241, 218, 11)">687 days (1.9 years)</td>
+            </tr>
+
+            <tr>
+                <th scope="row">7</th>
+                <td style="color: rgb(241, 218, 11)">Surface Temperature</td>
+                <td style="color:rgb(241, 218, 11)">-153 to 20 °C</td>
+            </tr> 
+            <tr>
+                <th scope="row">8</th>
+                <td style="color:rgb(241, 218, 11)">First Record</td>
+                <td style="color:rgb(241, 218, 11)">2nd millennium BC</td>
+            </tr>  
+
+            <tr>
+                <th scope="row">9</th>
+                <td style="color:rgb(241, 218, 11)">Recorded By</td>
+                <td style ="color:rgb(241, 218, 11)">Egyptian astronomers</td>
+            </tr>
+        </tbody>
+      </table>
+        
+     
+<!--<img src="{{url}}" alt="mars_image" style="width:500px;height:600px">    -->
+</body>
+</html>
